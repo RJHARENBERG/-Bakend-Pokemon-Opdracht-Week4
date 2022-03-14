@@ -1,4 +1,4 @@
-public class Pokemon {
+public abstract class Pokemon {
 
 //    [v]Super klasse
 //    [v] 2 private variabelen
@@ -48,4 +48,7 @@ public class Pokemon {
     public void speaks() {
         System.out.println("‼️💰📢‼️");
     }
+
+    public void thunderPunch(){}
+
 }

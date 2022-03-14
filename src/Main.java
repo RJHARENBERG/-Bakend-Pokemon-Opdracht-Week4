@@ -10,6 +10,8 @@ public class Main {
         Water water = new Water();
         Fire fire = new Fire();
 
+        Pokemon pika = new Electric("Pika",3, 4,"appel", "kwak",true, true, 9);
+
         electric.thunderPunch();
 
         electric.setHoursOfSleep(5);
@@ -17,6 +19,19 @@ public class Main {
         electric.thunderPunch();
 
         electric.speaks();
+
+        pika.speaks();
+
+        pika.thunderPunch();
+
+        grass.thunderPunch();
+
+        water.thunderPunch();
+
+        fire.thunderPunch();
+
+
+
 
     }
 }

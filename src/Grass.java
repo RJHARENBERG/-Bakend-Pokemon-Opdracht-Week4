@@ -16,4 +16,8 @@ public class Grass extends Pokemon {
 
     public void leechSeed() {
     }
+
+    public void thunderPunch(){
+        System.out.println("ik heb geen stroom");
+    }
 }

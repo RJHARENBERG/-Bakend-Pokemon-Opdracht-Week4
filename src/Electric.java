@@ -20,9 +20,11 @@ public class Electric extends Pokemon {
         this.hoursOfSleep = hoursOfSleep;
     }
 
-//    public Electric() {
-//        Electric electric = new Electric();
-//    }
+    public Electric(boolean hasSalary, boolean thunderStorm, int hoursOfSleep) {
+        this.hasSalary = hasSalary;
+        this.thunderStorm = thunderStorm;
+        this.hoursOfSleep = hoursOfSleep;
+    }
 
     public int getHoursOfSleep() {
         return hoursOfSleep;
@@ -56,10 +58,15 @@ public class Electric extends Pokemon {
             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         }
 
-
     }
 
     public void electroBall() {
 
+    }
+
+    @Override
+    public void speaks() {
+        super.speaks();
+        System.out.println("lalalaal️");
     }
 }
